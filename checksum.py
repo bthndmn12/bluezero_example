@@ -1,5 +1,3 @@
-# multiparty_ble/checksum.py
-
 import zlib
 
 def compute_checksum(data: bytes) -> int:

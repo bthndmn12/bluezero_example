@@ -1,5 +1,3 @@
-# multiparty_ble/transport.py
-
 import asyncio
 from bleak import BleakClient, BleakScanner
 from bleak.exc import BleakError

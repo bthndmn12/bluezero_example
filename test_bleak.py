@@ -1,4 +1,3 @@
-# test_bleak_scan.py
 import asyncio
 from bleak import BleakScanner
 

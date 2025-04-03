@@ -1,6 +1,3 @@
-
-# multiparty_ble/client.py
-
 import asyncio
 import logging
 import zlib

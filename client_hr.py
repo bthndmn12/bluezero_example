@@ -1,4 +1,3 @@
-# client_hr.py
 import asyncio
 import logging
 from multiparty_ble.transport import BleTransport
@@ -7,6 +6,7 @@ from multiparty_ble.protocol import PacketType, PacketFlags
 SERVICE_UUID = "0000180d-0000-1000-8000-00805f9b34fb"
 WRITE_CHAR_UUID = "00002a39-0000-1000-8000-00805f9b34fb"  # Control Point (for writing)
 NOTIFY_CHAR_UUID = "00002a37-0000-1000-8000-00805f9b34fb"  # HR Measurement (notifications)
+
 
 logging.basicConfig(level=logging.INFO)
 log = logging.getLogger("hr-client")

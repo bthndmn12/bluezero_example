@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 from bluezero import peripheral
 import struct
 import logging
